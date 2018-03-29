@@ -1,0 +1,20 @@
+{
+    "name": "jackmeng/oauth2-tp5",
+    "description": "这是一个适用于ThinkPHP5的oauth2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jackmeng",
+            "email": "jiekemeng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload":{
+        "psr-4":{
+            "Jackmeng\\Oauth2\\":"src/"
+        }
+    }
+}
